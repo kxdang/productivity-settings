@@ -2,6 +2,7 @@
 my personal vim keybinding settings in vscode
 
 
+settings.json
 ```json
  "vim.easymotion": true,
   "vim.insertModeKeyBindings": [{
@@ -25,3 +26,20 @@ my personal vim keybinding settings in vscode
 
 
 ```
+
+
+keybinds.json
+
+```json
+   {
+        "key": "tab",
+        "command": "tab",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+    {
+        "key": "shift-tab",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    }, 
+
+``
