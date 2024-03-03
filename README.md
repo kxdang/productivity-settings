@@ -42,4 +42,4 @@ keybinds.json
         "when": "editorTextFocus && !editorTabMovesFocus"
     }, 
 
-``
+```
