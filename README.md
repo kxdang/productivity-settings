@@ -23,8 +23,7 @@ settings.json
     "<C-a>": false,
     "<C-d>": false
   },
-
-
+ "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
 ```
 
 
