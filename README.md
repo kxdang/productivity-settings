@@ -86,7 +86,9 @@ keybinds.json
 
 ```
 
+# My personal yabai window tiling shortcuts
 
+hyper bound to caps using Karabiner
 
 yabai:
 ```
