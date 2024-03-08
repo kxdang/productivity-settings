@@ -67,6 +67,69 @@ keybinds.json
         "key": "shift-tab",
         "command": "outdent",
         "when": "editorTextFocus && !editorTabMovesFocus"
-    }, 
+    },
+   {
+     "key": "cmd+enter",
+     "command": "renameFile",
+     "when": "explorerViewletVisible && filesExplorerFocus"
+   },
+   {
+     "key": "enter",
+     "command": "-renameFile",
+     "when": "explorerViewletVisible && filesExplorerFocus"
+   },
+   {
+     "key": "enter",
+     "command": "list.select",
+     "when": "listFocus && !inputFocus"
+   }
+
+```
+
+
+
+yabai:
+```
+yabai -m config layout bsp
+
+# New window spawns to the right if vertical split, or bottom if horizontal split
+yabai -m config window_placement second_child
+
+
+yabai -m config top_padding 4
+yabai -m config bottom_padding 4
+yabai -m config left_padding 4
+yabai -m config right_padding 4
+yabai -m config window_gap 4
+
+
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+
+```
+
+skhdrc:
+```
+# Navigates between open windows
+hyper - j: yabai -m window --focus south
+hyper - k: yabai -m window --focus north
+hyper - h: yabai -m window --focus west
+hyper - l: yabai -m window --focus east
+
+# Navigates between external monitors
+hyper - s: yabai -m display --focus west
+hyper - g: yabai -m display --focus east
+
+# Flips based on axis
+hyper - y: yabai -m space --mirror y-axis
+hyper - x: yabai -m space --mirror x-axis
+
+# Maximizes the window fullscreen
+hyper - m: yabai -m window --toggle zoom-fullscreen
+
+# toggle window float
+hyper - t: yabai -m window --toggle float --grid 4:4:1:1:2:2
+
 
 ```
