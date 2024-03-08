@@ -41,7 +41,6 @@ settings.json
       "commands": ["workbench.action.focusRightGroup"]
     },
   ],
-  ],
 
   "vim.hlsearch": true,
   "vim.handleKeys": {
