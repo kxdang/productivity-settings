@@ -133,5 +133,8 @@ hyper - m: yabai -m window --toggle zoom-fullscreen
 # toggle window float
 hyper - t: yabai -m window --toggle float --grid 4:4:1:1:2:2
 
+# rotate 3 windows
+hyper - r: yabai -m window first --swap next && yabai -m window first --swap last
+hyper - q: yabai -m window first --swap last && yabai -m window first --swap next
 
 ```
