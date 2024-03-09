@@ -1,7 +1,26 @@
-# VSCODE
-my personal vim keybinding settings in vscode
 
-Vim
+# Table of Contents
+
+- [VSCODE](#vscode)
+  - [settings.json - vim](#settings.json)
+  - [keybindings.json](#keybindings.json)
+
+- [My Personal Yabai Window Tiling Shortcuts](#my-personal-yabai-window-tiling-shortcuts)
+  - [Start Yabai](#start-yabai)
+  - [Stop Yabai](#stop-yabai)
+  - [Yabai Configuration](#yabai-configuration)
+
+- [skhdrc](#skhdrc)
+  - [Start skhd](#start-skhd)
+  - [Stop skhd](#stop-skhd)
+  - [skhd Configuration](#skhd-configuration)
+
+- [Macbook Karabiner Elements](#macbook-karabiner-elements)
+  - [Settings to Unbind the Globe Key](#settings-to-unbind-the-globe-key)
+
+
+# VSCODE
+
 # Settings.json
 ```json
  "vim.easymotion": true,
