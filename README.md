@@ -2,7 +2,7 @@
 my personal vim keybinding settings in vscode
 
 
-settings.json
+# Settings.json
 ```json
  "vim.easymotion": true,
   "vim.insertModeKeyBindings": [{
@@ -55,7 +55,7 @@ settings.json
 ```
 
 
-keybinds.json
+# keybindingss.json
 
 ```json
 [
