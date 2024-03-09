@@ -1,7 +1,7 @@
-# vim-keybindings
+# VSCODE
 my personal vim keybinding settings in vscode
 
-
+Vim
 # Settings.json
 ```json
  "vim.easymotion": true,
@@ -165,7 +165,7 @@ hyper - k: yabai -m window --focus north
 hyper - h: yabai -m window --focus west
 hyper - l: yabai -m window --focus east
 
-# Navigates between external monitors
+# Navigates focus between external monitors
 hyper - s: yabai -m display --focus west
 hyper - g: yabai -m display --focus east
 
@@ -184,11 +184,22 @@ hyper - r: yabai -m window first --swap next && yabai -m window first --swap las
 hyper - q: yabai -m window first --swap last && yabai -m window first --swap next
 
 
-# move window and focus
+# move window to another display and focus
 hyper - left: yabai -m window --swap west  || $(yabai -m window --display west; yabai -m display --focus west)
 hyper - down: yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
 hyper - up: yabai -m window --swap north   || $(yabai -m window --display north; yabai -m display --focus north)
 hyper - right: yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
 
 
+#move window to prev and next space
+hyper - p: yabai -m window --space prev;
+hyper - n: yabai -m window --space next;
+
 ```
+
+---
+# Macbook Karabiner Elements
+
+Settings to unbind the globe key to be command key
+![CleanShot 2024-03-09 at 11 00 55@2x](https://github.com/kxdang/productivity-settings/assets/17800044/3ad981e8-12de-498f-9c3f-bf49cad2fd61)
+
