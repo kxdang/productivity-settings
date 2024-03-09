@@ -2,8 +2,8 @@
 # Table of Contents
 
 - [VSCODE](#vscode)
-  - [settings.json - vim](#settings.json)
-  - [keybindings.json](#keybindings.json)
+  - [settings.json - vim](#settingsjson)
+  - [keybindings.json](#keybindingsjson)
 
 - [My Personal Yabai Window Tiling Shortcuts](#my-personal-yabai-window-tiling-shortcuts)
   - [Start Yabai](#start-yabai)
