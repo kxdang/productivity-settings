@@ -15,7 +15,7 @@ settings.json
       "after": ["leader", "leader", "leader", "b", "d", "w"]
     },
       // NAVIGATION
-    // switch b/w buffers
+    // switch b/w vscode tabs
     { "before": ["<S-h>"], "commands": [":bprevious"] },
     { "before": ["<S-l>"], "commands": [":bnext"] },
 
@@ -58,31 +58,63 @@ settings.json
 keybinds.json
 
 ```json
-   {
-        "key": "tab",
-        "command": "tab",
-        "when": "editorTextFocus && !editorTabMovesFocus"
-    },
-    {
-        "key": "shift-tab",
-        "command": "outdent",
-        "when": "editorTextFocus && !editorTabMovesFocus"
-    },
-   {
-     "key": "cmd+enter",
-     "command": "renameFile",
-     "when": "explorerViewletVisible && filesExplorerFocus"
-   },
-   {
-     "key": "enter",
-     "command": "-renameFile",
-     "when": "explorerViewletVisible && filesExplorerFocus"
-   },
-   {
-     "key": "enter",
-     "command": "list.select",
-     "when": "listFocus && !inputFocus"
-   }
+[
+  {
+    "key": "shift shift",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift-tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "enter",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "shift+n",
+    "command": "workbench.action.newWindow",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  }
+]
+
 
 ```
 
