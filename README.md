@@ -219,6 +219,6 @@ hyper - n: yabai -m window --space next;
 ---
 # Macbook Karabiner Elements
 
-Settings to unbind the globe key to be command key
+## Settings to unbind the globe key to be command key
 ![CleanShot 2024-03-09 at 11 00 55@2x](https://github.com/kxdang/productivity-settings/assets/17800044/3ad981e8-12de-498f-9c3f-bf49cad2fd61)
 
