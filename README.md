@@ -90,6 +90,12 @@ keybinds.json
 
 hyper bound to caps using Karabiner
 
+## start yabai
+`yabai --start-service`
+
+## stop yabai
+`yabai --stop-service`
+
 yabai:
 ```
 yabai -m config layout bsp
@@ -111,7 +117,15 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 
 ```
 
-skhdrc:
+
+# skhdrc
+## start yabai
+`skhd --start-service`
+
+## stop yabai
+`skhd --stop-service`
+
+
 ```
 # Navigates between open windows
 hyper - j: yabai -m window --focus south
