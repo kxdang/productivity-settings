@@ -55,7 +55,7 @@ my personal vim keybinding settings in vscode
 ```
 
 
-# keybindingss.json
+# keybindings.json
 
 ```json
 [
