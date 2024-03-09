@@ -119,10 +119,10 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 
 
 # skhdrc
-## start yabai
+## start skhd
 `skhd --start-service`
 
-## stop yabai
+## stop skhd
 `skhd --stop-service`
 
 
@@ -150,5 +150,13 @@ hyper - t: yabai -m window --toggle float --grid 4:4:1:1:2:2
 # rotate 3 windows
 hyper - r: yabai -m window first --swap next && yabai -m window first --swap last
 hyper - q: yabai -m window first --swap last && yabai -m window first --swap next
+
+
+# move window and focus
+hyper - left: yabai -m window --swap west  || $(yabai -m window --display west; yabai -m display --focus west)
+hyper - down: yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
+hyper - up: yabai -m window --swap north   || $(yabai -m window --display north; yabai -m display --focus north)
+hyper - right: yabai -m window --swap east || $(yabai -m window --display east; yabai -m display --focus east)
+
 
 ```
