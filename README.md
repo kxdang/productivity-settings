@@ -214,6 +214,9 @@ hyper - right: yabai -m window --swap east || $(yabai -m window --display east; 
 hyper - p: yabai -m window --space prev;
 hyper - n: yabai -m window --space next;
 
+# toggle the split type
+hyper - w: yabai -m window --toggle split
+
 ```
 
 ---
