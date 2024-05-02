@@ -131,6 +131,21 @@
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
   }
 ]
 
