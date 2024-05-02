@@ -185,8 +185,8 @@ hyper - h: yabai -m window --focus west
 hyper - l: yabai -m window --focus east
 
 # Navigates focus between external monitors
-hyper - s: yabai -m display --focus west
-hyper - g: yabai -m display --focus east
+hyper - a: yabai -m display --focus west
+hyper - d: yabai -m display --focus east
 
 # Flips based on axis
 hyper - y: yabai -m space --mirror y-axis
